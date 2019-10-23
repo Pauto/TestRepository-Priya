@@ -26,7 +26,7 @@ namespace Framework.Pages
             Browser.Driver.FindElement(By.XPath(".//*[@id='ctl00_CP_SignInUC1_UserNameContainer_txtUserName']")).Clear();
             Browser.Driver.FindElement(By.XPath(".//*[@id='ctl00_CP_SignInUC1_UserNameContainer_txtUserName']")).SendKeys("emailpb9@yahoo.com");
             Browser.Driver.FindElement(By.XPath(".//*[@id='ctl00_CP_SignInUC1_PasswordContainer_txtPassword']")).Clear();
-            Browser.Driver.FindElement(By.XPath(".//*[@id='ctl00_CP_SignInUC1_PasswordContainer_txtPassword']")).SendKeys("Passcode@129");
+            Browser.Driver.FindElement(By.XPath(".//*[@id='ctl00_CP_SignInUC1_PasswordContainer_txtPassword']")).SendKeys("Passxx@129");
             //Browser.Driver.FindElement(By.Name("Sign In")).Click();
             //Browser.Driver.FindElement(By.Name("Sign In")).Submit();
             Browser.Driver.FindElement(By.XPath(".//*[@id='ctl00_CP_SignInUC1_BtnLoginButton']")).Click();
